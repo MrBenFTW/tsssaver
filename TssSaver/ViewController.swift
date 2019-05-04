@@ -71,6 +71,11 @@ class ViewController: UITableViewController {
         if indexPath.row == 0 && indexPath.section == 1 {
             saveBlobs()
         }
+        if indexPath.row == 1 && indexPath.section == 1 {
+            UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
+            UserDefaults.standard.synchronize()
+            exit(0)
+        }
         tableView.deselectRow(at: indexPath, animated: true)
     }
     
