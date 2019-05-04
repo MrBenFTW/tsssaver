@@ -1,9 +1,9 @@
 //
 //  Blob.swift
-//  TSSsaver
+//  TssSaver
 //
-//  Created by Jamie Bishop on 21/05/2017.
-//  Copyright © 2017 Dynastic Development. All rights reserved.
+//  Created by Ben Mitchell on 04/05/2019.
+//  Copyright © 2019 Ben Mitchell. All rights reserved.
 //
 
 import Foundation

@@ -13,7 +13,8 @@ struct Device {
     static let boardConfig = Sysctl.machine
 
     static var ecid: String? {
-        return get_ecid() as String
+        let ecid = UserDefaults.standard.string(forKey: "ECID")
+        return ecid
 
         // TOOD: Fix my pure swift rewrite :(
         
