@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		869F4C6E227D223B00C6B221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F4C6D227D223B00C6B221 /* AppDelegate.swift */; };
+		869F4C70227D226900C6B221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869F4C6F227D226900C6B221 /* ViewController.swift */; };
 		86BC442A227D0B6F00659E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86BC4429227D0B6F00659E66 /* Assets.xcassets */; };
 		86BC4442227D0BA200659E66 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC4435227D0BA200659E66 /* Device.swift */; };
 		86BC4443227D0BA300659E66 /* SaverError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC4436227D0BA200659E66 /* SaverError.swift */; };
@@ -16,15 +18,15 @@
 		86BC4447227D0BA300659E66 /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC443B227D0BA200659E66 /* ProgressHUD.swift */; };
 		86BC4448227D0BA300659E66 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC443C227D0BA200659E66 /* API.swift */; };
 		86BC444A227D0BA300659E66 /* CwlSysctl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC443E227D0BA200659E66 /* CwlSysctl.swift */; };
-		86BC444B227D0BA300659E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC443F227D0BA200659E66 /* AppDelegate.swift */; };
 		86BC444C227D0BA300659E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86BC4440227D0BA200659E66 /* LaunchScreen.storyboard */; };
-		86BC444D227D0BA300659E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC4441227D0BA200659E66 /* ViewController.swift */; };
 		86BC444F227D113600659E66 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC444E227D113600659E66 /* InitialViewController.swift */; };
 		86BC4451227D128800659E66 /* Overrides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC4450227D128800659E66 /* Overrides.swift */; };
 		86BC4453227D12C800659E66 /* ECIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BC4452227D12C800659E66 /* ECIDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		869F4C6D227D223B00C6B221 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		869F4C6F227D226900C6B221 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86BC441F227D0B6E00659E66 /* TssSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TssSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86BC4429227D0B6F00659E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86BC442E227D0B6F00659E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,9 +39,7 @@
 		86BC443B227D0BA200659E66 /* ProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 		86BC443C227D0BA200659E66 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		86BC443E227D0BA200659E66 /* CwlSysctl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlSysctl.swift; sourceTree = "<group>"; };
-		86BC443F227D0BA200659E66 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/tsssaver-master/src/AppDelegate.swift"; sourceTree = "<group>"; };
 		86BC4440227D0BA200659E66 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86BC4441227D0BA200659E66 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/tsssaver-master/src/ViewController.swift"; sourceTree = "<group>"; };
 		86BC444E227D113600659E66 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		86BC4450227D128800659E66 /* Overrides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overrides.swift; sourceTree = "<group>"; };
 		86BC4452227D12C800659E66 /* ECIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECIDViewController.swift; sourceTree = "<group>"; };
@@ -76,8 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				86BC4440227D0BA200659E66 /* LaunchScreen.storyboard */,
+				869F4C6F227D226900C6B221 /* ViewController.swift */,
+				869F4C6D227D223B00C6B221 /* AppDelegate.swift */,
 				86BC443C227D0BA200659E66 /* API.swift */,
-				86BC443F227D0BA200659E66 /* AppDelegate.swift */,
 				86BC4439227D0BA200659E66 /* Blob.swift */,
 				86BC4437227D0BA200659E66 /* BlobSaver.swift */,
 				86BC443E227D0BA200659E66 /* CwlSysctl.swift */,
@@ -85,7 +86,6 @@
 				86BC4438227D0BA200659E66 /* Main.storyboard */,
 				86BC443B227D0BA200659E66 /* ProgressHUD.swift */,
 				86BC4436227D0BA200659E66 /* SaverError.swift */,
-				86BC4441227D0BA200659E66 /* ViewController.swift */,
 				86BC4429227D0B6F00659E66 /* Assets.xcassets */,
 				86BC442E227D0B6F00659E66 /* Info.plist */,
 				86BC4434227D0BA100659E66 /* TssSaver-Bridging-Header.h */,
@@ -168,13 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86BC444B227D0BA300659E66 /* AppDelegate.swift in Sources */,
+				869F4C6E227D223B00C6B221 /* AppDelegate.swift in Sources */,
 				86BC4446227D0BA300659E66 /* Blob.swift in Sources */,
 				86BC444A227D0BA300659E66 /* CwlSysctl.swift in Sources */,
 				86BC4442227D0BA200659E66 /* Device.swift in Sources */,
-				86BC444D227D0BA300659E66 /* ViewController.swift in Sources */,
 				86BC444F227D113600659E66 /* InitialViewController.swift in Sources */,
 				86BC4443227D0BA300659E66 /* SaverError.swift in Sources */,
+				869F4C70227D226900C6B221 /* ViewController.swift in Sources */,
 				86BC4453227D12C800659E66 /* ECIDViewController.swift in Sources */,
 				86BC4444227D0BA300659E66 /* BlobSaver.swift in Sources */,
 				86BC4448227D0BA300659E66 /* API.swift in Sources */,
