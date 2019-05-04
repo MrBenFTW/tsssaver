@@ -32,6 +32,7 @@ class ECIDViewController: UIViewController, UITextFieldDelegate {
     private func showSaverView() -> Void {
         DispatchQueue.main.async {
             self.performSegue(withIdentifier: "SaverView", sender: self)
+            UserDefaults.standard.set(true, forKey: "ecidSet")
         }
     }
     /*

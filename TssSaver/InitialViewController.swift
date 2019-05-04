@@ -36,7 +36,6 @@ class InitialViewController: UIViewController {
             showSaverView()
         }
         else{
-            UserDefaults.standard.set(true, forKey: "ecidSet")
             showECIDEntry()
         }
     }
